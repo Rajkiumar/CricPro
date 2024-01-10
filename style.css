@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap");
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    font-size: 15px;
+}
+
+.logo{
+    position: absolute;
+    right: 4%;
+    top: 3%;
+}
+
+h1{
+    font-family: "Georama", sans-serif;
+    font-size: 350%;
+    margin-left: 4.8%;
+    margin-top: 4%;
+    letter-spacing: 1px;
+    text-shadow: 2px 5px 7px rgb(155, 152, 152);
+}
+.ivs{
+    font-family: "Georama", sans-serif;
+    font-size: 140%;
+    margin-left: 4.8%;
+    margin-top: -2.2%;
+    color: rgb(114, 114, 114);
+    letter-spacing: 2px;
+}
+
+table{
+    margin-top: 2% ;
+    background-color: white;
+    width: 68%;
+    height: 61vh;
+    font-family: sans-serif;
+    box-shadow: -1px 1px 5px rgb(234, 234, 234);
+    margin-left: 4.8%;
+    border-collapse: collapse;
+}
+td, th {
+    height: 28px;
+    border-bottom: 1px solid #8c8c8c3d;
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: 200;
+  }
+
+tr{
+    border-bottom: 2px solid rgb(204, 202, 202);
+}
+
+.runcount{
+    background-color: rgba(225, 34, 13, 0.79);
+    color: white;
+    font-weight: bold;
+}
+
+.second{
+    text-align: end;
+}
+
+.player{
+    color: rgb(164, 164, 164);
+}
+
+th{
+    text-align: end;
+}
+
+.footer{
+    margin-left: 4.8%;
+    margin-top: 2.2%;
+}
